@@ -5,7 +5,7 @@
 // (C) Datasim Education BV 2006
 
 #include "point.hpp"
-
+#include "point.cpp"
 #include <iostream>
 
 int main()

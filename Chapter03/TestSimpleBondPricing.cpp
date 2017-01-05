@@ -4,6 +4,7 @@
 //
 
 #include "SimpleBondPricing.hpp"
+#include "SimpleBondPricing.cpp"
 #include <iostream>
 using namespace std;
 
