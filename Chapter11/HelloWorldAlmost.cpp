@@ -56,7 +56,7 @@ template <class T> void print(const vector<T>& l, string s = string("data"))
 
 	// We must use a const iterator here, otherwise we get a compiler error.
 	vector<T>::const_iterator i;
-	for (i = l.begin(); i != l.end(); i++)
+	for (int i = l.begin(); i != l.end(); i++)
 	{
 			cout << *i << ",";
 
