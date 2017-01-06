@@ -7,6 +7,7 @@
 //
 
 #include "complex.hpp"
+#include "complex.cpp"
 
 Complex myFunc(const Complex& z)
 { // Single valued function of a complex variable

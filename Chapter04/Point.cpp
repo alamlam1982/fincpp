@@ -22,6 +22,8 @@ void Point::init(double dx, double dy)
 	y = dy;
 }
 
+Point Point::OriginP = Point(0.0, 0.0);
+
 Point::Point()
 {// Default constructor
 	init(0.0, 0.0);
@@ -95,6 +97,10 @@ Point Point::MidPoint(const Point& p2) const
 	return result;
 }
 
+Point& Point::GetOriginPoint()
+{
+return OriginP;
+}
 
 // Copy
 Point& Point::copy(const Point& p)

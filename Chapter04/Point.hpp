@@ -22,7 +22,8 @@ class Point : public Shape
 private:
 	double x;	// X coordinate
 	double y;	// Y coordinate
-
+    
+    static Point OriginP;
 	void init(double dx, double dy);
 
 public:
@@ -46,7 +47,8 @@ public:
 	Point scale(const Point& pt) const;		// Return current * p
 	Point MidPoint(const Point& pt) const;		// Point midway
 
-
+    // Accessing the "global" object
+    static Point& GetOriginPoint();
 	// Copy
 	Point& copy(const Point& p);			// Copy p in current
 

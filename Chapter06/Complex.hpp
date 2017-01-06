@@ -13,8 +13,8 @@
 #ifndef COMPLEX_HXX
 #define COMPLEX_HXX
 
-#include <iostream.h>
-//using namespace std;
+#include <iostream>
+using namespace std;
 
 class Complex
 {
